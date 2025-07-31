@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C.NOTES - Musical Instruments Store</title>
+
+  <link rel="icon" href="images/web-icon1.png" type="image/png" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Bundle JS (with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg bg-primary navbar-light" id="nav">
+   <div class="container">
+     <a href="#hero"><img src="images/store-logo.png" style="width: 150px; height: 60px;" /></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav mx-auto">
+         <li class="nav-item"><a class="nav-link text-dark" href="#hero">Home</a></li>
+         <li class="nav-item"><a class="nav-link text-dark" href="#products">New Arrivals</a></li>
+         <li class="nav-item"><a class="nav-link text-dark" href="#top-picks">Top Picks</a></li>
+         <li class="nav-item"><a class="nav-link text-dark" href="#promo">Promo</a></li>
+         <li class="nav-item"><a class="nav-link text-dark" href="#feedback">Feedback</a></li>
+         <li class="nav-item"><a class="nav-link text-dark" href="#contact">Contacts</a></li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+
+
+
+
+<!-- Hero Section -->
+<section id="hero" class="text-start hero-section">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="store-name text-primary fw-bold">MUSICAL INSTRUMENTS STORE</p>
+        <h1 class="display-3 fw-bold">Your <span class="highlight">Music</span> Starts Here<span>.</span></h1>
+        <p class="lead text-dark">Instruments & Supplies from ₱2,999.00</p>
+        <a href="#products" class="px-3 py-2 btn btn-primary custom-hover-dark">Shop Now</a> 
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Service Highlights Section -->
+<section id="services" class="py-5 text-center">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card h-100 shadow-sm border-primary">
+          <div class="card-body">
+            <img src="images/delivery.png" alt="Free Delivery Icon" class="mb-3">
+            <h5 class="card-title">Free Delivery.</h5>
+            <p class="card-text">For all orders over ₱10,000</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card h-100 shadow-sm border-primary">
+          <div class="card-body">
+            <img src="images/return.png" alt="Returns Icon" class="mb-3">
+            <h5 class="card-title">90-Day Returns.</h5>
+            <p class="card-text">Our goal is your satisfaction</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card h-100 shadow-sm border-primary">
+          <div class="card-body">
+            <img src="images/payment.png" alt="Secure Payment Icon" class="mb-3">
+            <h5 class="card-title">Secure Payment.</h5>
+            <p class="card-text">We accept Visa and MasterCard</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card h-100 shadow-sm border-primary">
+          <div class="card-body">
+            <img src="images/support.png" alt="Support Icon" class="mb-3">
+            <h5 class="card-title">24/7 Support.</h5>
+            <p class="card-text">We'll answer all your questions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- New Arrivals Carousel -->
+<section id="products" class="py-5 mb-5">
+  <div class="container text-center">
+  	<p class="text-primary small">RECENTLY ADDED</p>
+    <h1 ><span>New</span> Arrivals<span>.</span></h1>
+    <p class="text-secondary">	Unbox Your Next Instrument.</p>
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-4 col-sm-12">
+              <div class="card h-100 shadow-sm">
+                <img src="images/acoustic.jpg" class="card-img-top" alt="A-Guitar">
+                <div class="card-body">
+                  <h5 class="card-title">Acoustic Guitar</h5>
+                  <p class="card-text">Warm tone and great playability. Perfect for beginners.</p>
+                  <p class="fw-bold text-primary">₱2,999.00</p>
+                  <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+              <div class="card h-100 shadow-sm">
+                <img src="images/basehorn.jpg" class="card-img-top" alt="Base Horn">
+                <div class="card-body">
+                  <h5 class="card-title">Base Horn</h5>
+                  <p class="card-text">Deep, powerful tone with solid projection for bands and ensembles.</p>
+                  <p class="fw-bold text-primary">₱4,499.00</p>
+                  <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+              <div class="card h-100 shadow-sm">
+                <img src="images/electric.jpg" class="card-img-top" alt="E-Guitar">
+                <div class="card-body">
+                  <h5 class="card-title">Eletric Guitar</h5>
+                  <p class="card-text">Crisp tone and smooth playability, great for all styles.</p>
+                  <p class="fw-bold text-primary">₱4,499.00</p>
+                  <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            
+           
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row g-4">
+            
+            <div class=" col-md-4 col-sm-12">
+              <div class="card h-100 shadow-sm">
+                <img src="images/drums.jpg" class="card-img-top" alt="drums">
+                <div class="card-body">
+                  <h5 class="card-title">Drums</h5>
+                  <p class="card-text">Rich tone and classic feel—built for live performance..</p>
+                  <p class="fw-bold text-primary">₱1,999.00</p>
+                  <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class=" col-md-4 col-sm-12">
+              <div class="card h-100 shadow-sm">
+                <img src="images/violin.jpg" class="card-img-top" alt="Violin">
+                <div class="card-body">
+                  <h5 class="card-title">Violin</h5>
+                  <p class="card-text">Exceptional sound quality and fine craftsmanship for advanced musicians</p>
+                  <p class="fw-bold text-primary">₱3,499.00</p>
+                  <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class=" col-md-4 col-sm-12">
+              <div class="card h-100 shadow-sm">
+                <img src="images/accordion.jpg" class="card-img-top" alt="accordion">
+                <div class="card-body">
+                  <h5 class="card-title">Accordion</h5>
+                  <p class="card-text">Rich tone and responsive action, made for performance.</p>
+                  <p class="fw-bold text-primary">₱1,999.00</p>
+                  <a href="#" class="btn btn-outline-primary">Shop Now</a>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Promo Section -->
+<section id="promo" class="promo-section text-white">
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col d-flex align-items-end justify-content-center text-center">
+        <div class="p-4 rounded">
+          <h1 class="promo-date">8<span>.</span>8</h1>
+          <h1 class="promo-type">MEGA SALE</h1>
+          <h2 class="promo-type fw-bold">Up to 70%</h2>
+          <p>Ends Aug 15, 2025 at 11:59 PM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Top Picks Section -->
+<section id="top-picks" class="py-5">
+  <div class="container-fluid text-center">
+  	<p class="text-primary small">CUSTOMER-FAVORITE</p>
+    <h1>Top <span class="text-primary">Picks</span>.</h1>
+    <p class="text-secondary">Tap on any image to view full product details.</p>
+
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Single Slide with 3 Products -->
+        <div class="carousel-item active">
+          <div class="row justify-content-center g-4 px-5">
+            
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="images/bs-drums.jpg" class="card-img-top" alt="drums">
+                <div class="card-body">
+                  <h5 class="card-title">Drums</h5>
+                  <p class="card-text">Easy to play with great sound, perfect for new drummers.</p>
+                  <p class="text-primary fw-bold">₱2,999</p>
+                  <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="images/bs-electric.jpg" class="card-img-top" alt="E-Guitar">
+                <div class="card-body">
+                  <h5 class="card-title">Eletric Guitar</h5>
+                  <p class="card-text">Premium sound with sleek design, made for performance.</p>
+                  <p class="text-primary fw-bold">₱4,499</p>
+                  <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="images/bs-saxophone.jpg" class="card-img-top" alt="Saxophone">
+                <div class="card-body">
+                  <h5 class="card-title">Saxophone</h5>
+                  <p class="card-text">Warm tone and smooth keys, perfect for any skill level.</p>
+                  <p class="text-primary fw-bold">₱8,999</p>
+                  <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Feedback -->
+	<section id="feedback" class="feedback-section py-5 text-center">
+	  <div class="container">
+	    <h2 class="my-5 fw-bold text-white">What Our <span>Customers</span> Say<span>.</span></h2>
+	    <div class="row g-4">
+	      <div class="col-md-4">
+	        <div class="p-4 border rounded shadow-sm bg-white">
+	          <p>🎸 “The acoustic guitar I bought is incredible. Great value for the price!”</p>
+	          <h6 class="mt-3 mb-0">– Mark D.</h6>
+	        </div>
+	      </div>
+	      <div class="col-md-4">
+	        <div class="p-4 border rounded shadow-sm bg-white">
+	          <p>🎹 “My daughter loves her keyboard! Fast delivery and awesome quality.”</p>
+	          <h6 class="mt-3 mb-0">– Anna R.</h6>
+	        </div>
+	      </div>
+	      <div class="col-md-4">
+	        <div class="p-4 border rounded shadow-sm bg-white">
+	          <p>🥁 “Finally found a drum set that fits my studio and budget. Highly recommend!”</p>
+	          <h6 class="mt-3 mb-0">– Kevin S.</h6>
+	      </div>
+	  </div>	
+	</section>
+
+	<!-- Promo -->
+	<section class="bg-primary py-2">
+	  <div class="container">
+	    <div class="row align-items-center">
+	      
+	      <!-- Text -->
+	      <div class="col-md-8">
+	        <p class="mb-0 text-dark">
+	          <strong>New to us?</strong> Enjoy an exclusive <span class="fw-bold text-white">15% discount</span> on your first order — <strong>Sign up today!</strong>
+	        </p>
+	      </div>
+	      
+	      <!-- Button -->
+	      <div class="col-md-4 text-md-end text-center mt-3 mt-md-0">
+	        <a href="#" class="btn btn-dark">Sign Up</a>
+	      </div>
+
+	    </div>
+	  </div>
+	</section>
+
+ 	 <!-- Footer -->
+  <footer id="contact" class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Logo & Contact -->
+        <div class="col-md-3">
+          <a href="#hero">
+            <img src="images/inv-logo.png" alt="Logo" style="width: 120px;" class="mb-2">
+          </a>
+          <p class="mb-0 small">+63 0912 345 6789 | +63 0998 765 4321</p>
+          <p class="mb-0 small">c.notes@mail.com</p>
+        </div>
+
+        <!-- Links -->
+        <div class="col-md-2">
+          <h6 class="text-light border-bottom border-primary d-inline-block pb-1 mb-2">Quick Links</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#shop" class="text-secondary text-decoration-none">Shop</a></li>
+            <li><a href="#faq" class="text-secondary text-decoration-none">FAQ</a></li>
+            <li><a href="#contact" class="text-secondary text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h6 class="text-light border-bottom border-primary d-inline-block pb-1 mb-2">Company</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#shop" class="text-secondary text-decoration-none">Order Tracking</a></li>
+            <li><a href="#faq" class="text-secondary text-decoration-none">Customer Service</a></li>
+            <li><a href="#contact" class="text-secondary text-decoration-none">Returns</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h6 class="text-light border-bottom border-primary d-inline-block pb-1 mb-2">Customer Care</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#shop" class="text-secondary text-decoration-none">Policiy</a></li>
+            <li><a href="#faq" class="text-secondary text-decoration-none">Terms & Conditions</a></li>
+            <li><a href="#contact" class="text-secondary text-decoration-none">Shipping</a></li>
+            <li><a href="#contact" class="text-secondary text-decoration-none">FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-md-3">
+          <h6 class="text-light border-bottom border-primary d-inline-block pb-1 mb-2">Newsletter</h6>
+          <form class="d-flex gap-2">
+            <input type="email" class="form-control form-control-sm" placeholder="Email">
+            <button class="btn btn-sm btn-outline-light">Join</button>
+          </form>
+        </div>
+
+      </div>
+      <hr class="border-secondary my-3">
+      <p class="text-center mb-0 small">&copy; 2025 C.Notes. All rights reserved.</p>
+    </div>
+  </footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
