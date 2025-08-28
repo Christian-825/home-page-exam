@@ -3,6 +3,8 @@
 **Project Overview:**  
 C.NOTES is a modern, responsive web page for a musical instruments store. The website showcases new arrivals, top picks, customer feedback, promotions, and contact information, making it easy for customers to browse and shop online. It uses **HTML**, **Bootstrap 5**, and custom **CSS** for styling.
 
+**Live Demo:** [View on Vercel](christian-825.github.io/home-page-exam/)
+
 ---
 
 ## Table of Contents
