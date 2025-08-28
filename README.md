@@ -55,7 +55,7 @@ C.NOTES is a modern, responsive web page for a musical instruments store. The we
 ## Author
 **Christian Nievera**  
 Email: christian.nievera97@gmail.com  
-Website/Portfolio: (https://christian-web-portfolio.vercel.app/)
-LinkedIn: (www.linkedin.com/in/christian-nievera)
+Website/Portfolio: https://christian-web-portfolio.vercel.app/  
+LinkedIn: www.linkedin.com/in/christian-nievera
  
 
