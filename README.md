@@ -7,8 +7,7 @@ C.NOTES is a modern, responsive web page for a musical instruments store. The we
 
 ## Table of Contents
 - [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [File Structure](#file-structure)  
+- [Technologies Used](#technologies-used)   
 - [How to Use](#how-to-use)  
 - [Customization](#customization)  
 - [License](#license)  
